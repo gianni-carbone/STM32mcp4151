@@ -19,5 +19,5 @@ In the included example, the possibility of generating a sinusoidal waveform at 
 ## Notes
 Although the datasheet of the device shows a maximum SPI clock frequency of 10MHz, bench tests have shown the possibility of using much higher frequencies (tests up to 36MHz). In such cases, however, glitches are generated quite often which affect the cleanliness of the output modulation.
 
-### direct digital synthesis of sine wave using a sin table of 32 discrete points 
+### Plot of direct digital synthesis of sine wave using a sin table of 32 discrete points 
 ![STM32mcp4151_Sine32_17K5Hz](https://user-images.githubusercontent.com/16845473/159183637-dc90a8e4-43a9-4720-833e-06adc5a2b5a4.png)
